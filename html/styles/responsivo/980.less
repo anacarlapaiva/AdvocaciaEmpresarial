@@ -1,0 +1,156 @@
+﻿#equipe {
+    .container-box {
+        .blocos-atuacao {
+            .row-cima {
+                flex-direction: column;
+                align-items: center;
+                
+                .caixa {
+                    padding: 15px;
+                }
+
+                .caixa + .caixa {
+                    margin-top: 20px;
+                    margin-left: 0px;
+                }
+            }
+
+            .row-baixo {
+                flex-direction: column;
+                align-items: center;
+
+                .caixa {
+                    padding: 15px;
+                }
+
+                .caixa + .caixa {
+                    margin-top: 20px;
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+
+    .container-principal {
+        .linha {
+            position: absolute;
+            height: 3760px;
+            width: 1px;
+        }
+    }
+}
+
+#box-blog {
+    padding-bottom: 225px;
+
+    .container-principal {
+        .row-caixas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .caixa-blog + .caixa-blog {
+                margin-left: 0px;
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+#box-artigos {
+    padding-bottom: 225px;
+
+    .container-principal {
+        .row-caixas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .caixa-blog + .caixa-blog {
+                margin-left: 0px;
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+#banner-blog {
+    .container-flex {
+        .bg {
+            h1 {
+                text-align: center;
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+#banner-artigos {
+    .container-flex {
+        .bg {
+            h1 {
+                text-align: center;
+                font-size: 50px;
+            }
+        }
+    }
+}
+
+
+
+#sobre {
+    .container-principal {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+#footer {
+    .mapa {
+        h4 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        span {
+            color: #3c4043;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-weight: 400;
+            max-width: 250px;
+            width: 100%;
+        }
+
+        .container-principal {
+            .content-mapa {
+                .direita {
+
+                    .info {
+                        .texto {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+
+                    .midias {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        ul {
+                            display: flex;
+                            margin-left: 0px;
+                        }
+                    }
+                }
+            }
+
+            span + span {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+    }
+}
